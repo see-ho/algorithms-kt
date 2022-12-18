@@ -9,4 +9,5 @@ fun main(){
     }
     println(noArr.minOrNull())
     println(noArr.maxOrNull())
+    
 }
