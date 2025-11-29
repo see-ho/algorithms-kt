@@ -8,9 +8,9 @@ fun main() {
 
     while (arr.isNotEmpty()) {
         repeat(k - 1) {
-            arr.addLast(arr.removeFirst())  // 한 칸씩 뒤로 보내기
+            arr.addLast(arr.removeFirst())
         }
-        answer.add(arr.removeFirst())       // 제거
+        answer.add(arr.removeFirst()) 
     }
 
     println(answer.joinToString(prefix = "<", postfix = ">"))
